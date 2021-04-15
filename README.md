@@ -4,7 +4,7 @@ A silly tool to help me keep programs alive.
 
 ## Usage
 
-./AlwaysCYouThere <exec path> [... args]
+./alwaysCYouThere <exec path> [... args]
 
 exec path must start with ./ if you are trying to start an executable that is not currently in PATH.
 

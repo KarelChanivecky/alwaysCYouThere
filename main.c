@@ -19,7 +19,7 @@ _Noreturn void execute( char * const * argv ) {
         } else {
             int stat;
             wait(&stat);
-            printf("child exit status: %d", stat);
+            printf("child exit status: %d\n", stat);
         }
     }
 }
